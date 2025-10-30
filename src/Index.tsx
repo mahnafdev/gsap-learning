@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import From from "./components/From";
+import To from "./components/To";
 
 export default function Home() {
 	//* GSAP Version
@@ -16,6 +17,7 @@ export default function Home() {
 	return (
 		<main className="p-24 flex flex-col gap-y-64">
 			<From />
+			<To />
 		</main>
 	);
 }
