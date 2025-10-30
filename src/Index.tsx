@@ -3,6 +3,7 @@ import From from "./components/From";
 import To from "./components/To";
 import FromTo from "./components/FromTo";
 import GetProperty from "./components/GetProperty";
+import ParseEase from "./components/ParseEase";
 
 export default function Home() {
 	//* GSAP Version
@@ -22,6 +23,7 @@ export default function Home() {
 			<To />
 			<FromTo />
 			<GetProperty />
+			<ParseEase />
 		</main>
 	);
 }
