@@ -7,6 +7,18 @@
 	--color-primary: #0ae448;
 }
 
+.card {
+	@apply size-30 rounded-2xl;
+}
+
+.gradient-white {
+	@apply bg-linear-to-br from-zinc-400 via-zinc-100 to-zinc-400;
+}
+
+.gradient-black {
+	@apply bg-linear-to-br from-zinc-900 via-zinc-600 to-zinc-900;
+}
+
 .gradient-blue {
 	@apply bg-linear-to-br from-blue-700 via-blue-400 to-blue-700;
 }

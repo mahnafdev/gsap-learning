@@ -1,4 +1,5 @@
 import gsap from "gsap";
+import From from "./components/From";
 
 export default function Home() {
 	//* GSAP Version
@@ -9,8 +10,12 @@ export default function Home() {
 	});
 	//* GSAP Defaults
 	gsap.defaults({
-		duration: 1.5,
+		duration: 1,
 		ease: "sine.inOut",
 	});
-	return <main className="p-24 flex flex-col gap-y-64"></main>;
+	return (
+		<main className="p-24 flex flex-col gap-y-64">
+			<From />
+		</main>
+	);
 }
