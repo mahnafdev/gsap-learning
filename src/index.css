@@ -6,3 +6,35 @@
 	--color-black: #0e100f;
 	--color-primary: #0ae448;
 }
+
+.gradient-blue {
+	@apply bg-linear-to-br from-blue-700 via-blue-400 to-blue-700;
+}
+
+.gradient-purple {
+	@apply bg-linear-to-br from-purple-700 via-purple-400 to-purple-700;
+}
+
+.gradient-teal {
+	@apply bg-linear-to-br from-teal-700 via-teal-400 to-teal-700;
+}
+
+.gradient-green {
+	@apply bg-linear-to-br from-green-700 via-green-400 to-green-700;
+}
+
+.gradient-lime {
+	@apply bg-linear-to-br from-lime-700 via-lime-400 to-lime-700;
+}
+
+.gradient-yellow {
+	@apply bg-linear-to-br from-yellow-700 via-yellow-400 to-yellow-700;
+}
+
+.gradient-orange {
+	@apply bg-linear-to-br from-orange-700 via-orange-400 to-orange-700;
+}
+
+.gradient-rose {
+	@apply bg-linear-to-br from-rose-700 via-rose-400 to-rose-700;
+}
