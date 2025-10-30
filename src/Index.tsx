@@ -1,7 +1,11 @@
 import gsap from "gsap";
 
 export default function Home() {
-	// GSAP Version
+	//* GSAP Version
 	console.log(`GSAP ${gsap.version}`);
+	//* GSAP Config
+	gsap.config({
+		units: { width: "rem", height: "rem", margin: "rem", padding: "rem" },
+	});
 	return <main className="p-24 flex flex-col gap-y-64"></main>;
 }
