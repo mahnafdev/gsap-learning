@@ -7,5 +7,10 @@ export default function Home() {
 	gsap.config({
 		units: { width: "rem", height: "rem", margin: "rem", padding: "rem" },
 	});
+	//* GSAP Defaults
+	gsap.defaults({
+		duration: 1.5,
+		ease: "sine.inOut",
+	});
 	return <main className="p-24 flex flex-col gap-y-64"></main>;
 }
