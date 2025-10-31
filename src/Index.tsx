@@ -4,9 +4,10 @@ import To from "./components/To";
 import FromTo from "./components/FromTo";
 import GetProperty from "./components/GetProperty";
 import ParseEase from "./components/ParseEase";
-import QuickTo from "./components/QuickTo";
+// import QuickTo from "./components/QuickTo";
 import Set from "./components/Set";
 import Timeline from "./components/Timeline";
+import Yoyo from "./components/Yoyo";
 
 export default function Home() {
 	//* GSAP Version
@@ -28,8 +29,9 @@ export default function Home() {
 			<Timeline />
 			<GetProperty />
 			<ParseEase />
-			<QuickTo />
+			{/* <QuickTo /> */}
 			<Set />
+			<Yoyo />
 		</main>
 	);
 }
