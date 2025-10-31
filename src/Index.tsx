@@ -5,6 +5,7 @@ import FromTo from "./components/FromTo";
 import GetProperty from "./components/GetProperty";
 import ParseEase from "./components/ParseEase";
 import QuickTo from "./components/QuickTo";
+import Set from "./components/Set";
 
 export default function Home() {
 	//* GSAP Version
@@ -26,6 +27,7 @@ export default function Home() {
 			<GetProperty />
 			<ParseEase />
 			<QuickTo />
+			<Set />
 		</main>
 	);
 }
